@@ -1,36 +1,64 @@
 /* Inicio de Index*/
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 body{
-    background-color: black;
+    background-color: #71E6FF;
 }
-nav{
-    font-size: 0;
+.checkbtn{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none; !important
+}
+.navegadores_index{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 50%;
+    vertical-align: top;
+    padding-top: 10px;
+}
+.navegacion{
+    display: flex;
+    justify-content: left;
     font-family: "cursive";
+    font-size: 24px;
+    align-items: center;
+    padding-left: 10px;
+}
+.navegacion li{
+    padding-left: 5px;
 }
 main{
-    text-align: left;
-}
-h1 {
-    color: lightskyblue;
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
     text-align: center;
-    margin: 0%;
-    margin-top: 3%;
+}
+h1{
+    color: #444DC9;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5%;
     margin-bottom: 2%;
 }
 .colorancla{
-    color: lightskyblue;
+    color: #444DC9;
+    text-decoration: none;
 }
 .navintancla{
     color: white;
 }
 h2{
-    color: lightblue;
+    color: #444DC9;
     font-size: 35px;
     text-align: center;
     font-family: 'Indie Flower', cursive;
@@ -38,59 +66,94 @@ h2{
 }
 .imgindex{
     width: 100%;
+    height: auto;
 }
 a:hover{
     color: red;
-    text-decoration: none;
-}
-label{
-    color: lightblue;
-    margin: 100px;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration-line: underline;
 }
 span{
-    color: lightblue;
-    font-size: 45px;
+    color: #444DC9;
+    font-size: 30px;
     font-family: 'Indie Flower', cursive;
-    display: block;
     text-align: center;
 }
-ul{
-    padding: 0%;
-    list-style: none;
-}
 .audio{
-    display: inline-block;
-    width: 50%;
-    text-align: right;
-    padding-right: 20px;
     padding-top: 10px;
 }
-.navegadores_index ul{
-    font-size: 25px;
-    display: inline-block;
-    width: 50%;
-    padding-left: 10px;
-    vertical-align: top;
-    padding-top: 10px;
-}
-.navegacion li{
-    display: inline-block;
-}
-.intro{
+.introindex{
     font-weight: bold;
     color: #BE4646;
     font-size: 20px;
-    margin: 3%;
+    margin: 10px;
+    padding: 0 60px;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
-    display: inline-block;
 }
-.intro1{
-    margin: 0%;
-    margin-left: 10%;
-    display: inline-block;
+.subtituloindex{
+    text-align: center;
+}
+.spangrid{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+    text-decoration: underline;
+}
+.grid{
+    display: grid;
+    grid-template-columns: minmax(auto, 33%) minmax(auto, 33%) minmax(auto, 33%);
+    grid-template-rows: 150px 150px 180px;
+    row-gap: 20px;
+    column-gap: 10px;
+    margin: 2%;
+
+}
+/*.imggrid{
+    width: 230px;
+}*/
+.divgrid{
+    display: flex;
+    justify-content: center;
+}
+form{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.suscripcion{
+    color: #444DC9;
+    margin: 30px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration-line: underline;
+    padding: 0 3%;
+    text-decoration-line: none;
+}
+.redesyfooter{
+    display: flex;
+    vertical-align:auto
+}
+.red{
+    text-align: center;
+    flex: content;
+}
+.redes{
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    padding: 0;
+}
+.redes1{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.foot{
+    border-style:dotted;
+    border-color: red;
+    border-width: 2px 5px;
+
 }
 .footer{
     color: red;
@@ -101,17 +164,18 @@ ul{
     margin-bottom: 0;
     font-family: 'Montserrat', sans-serif;
 }
-.redes{
-    padding: 0;
-    text-align: center;
-}
-.redes li{
-    display: inline-block;
-    font-size: 25px;
-    font-family: "cursive";
-}
+
 /* Fin de index */
 /* Inicio de Carrera Deportiva*/
+.navegadores{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 50%;
+    padding-left: 10px;
+    vertical-align: top;
+    padding-top: 10px;
+}
 p{
     font-size: 0%;
 }
@@ -181,11 +245,15 @@ p{
 }
 .navegadores ul{
     font-size: 25px;
-    display: inline-block;
+    display: flex;
     width: 50%;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 10px;
+}
+.navinterno{
+    display: flex;
+    justify-content: right;
 }
 .navinterno ul{
     display: none;
@@ -202,10 +270,11 @@ p{
 .edit{
     text-align: right;
 }
-.navinterno > li{
+.navinterno li{
     display: inline-block;
     position: relative;
     vertical-align: top;
+    padding-right: 5px;
 }
 .navinterno > li:hover ul{
     display: block;
@@ -242,11 +311,15 @@ h4{
 /* Fin de Carrera Deportiva */
 /* Inicio DT */
 .imgdt{
-    width: 30%;
-    margin: 0%;
-    display: inline-block;
-    vertical-align: top;
+    width: 200px;
+    justify-content: center;
+
     
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .museo1 li{
@@ -256,4 +329,55 @@ h4{
 }
 .iframe{
     justify-content: center;
+}
+@media (max-width: 900px){
+    .imgindex{
+        width: 100%;
+        min-width: 100%;
+    }
+    .checkbtn{
+        padding-top: 15px;
+        display: block;
+        padding-left: 0;
+    }
+    #check:checked ~ .navegacion{
+        left: 0;
+    }
+    .navegacion{
+        position: fixed;
+        left: -100%;
+        width: 100%;
+        background-color: rgb(151, 53, 53);
+        top: 80px;
+        text-align: center;
+        transition: all 0.5s;
+        display:flex; 
+        justify-content: space-around;
+    }
+    .tituloindex{
+        margin-top: 13%;
+    }
+    .introindex{
+        margin: 10px;
+        padding: 0 20px;
+    }
+    .grid{
+        grid-template-columns: calc(50% - 1%) calc(50% - 1%);
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .imggrid{
+        width: 100%;
+        
+    }
+    .suscripcion{
+        display: block;
+        padding: 0 35px;
+        font-size: 15px;
+    }
+    .input{
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+    }
 }
