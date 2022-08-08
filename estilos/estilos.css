@@ -105,7 +105,6 @@ span{
     row-gap: 20px;
     column-gap: 10px;
     margin: 2%;
-
 }
 /*.imggrid{
     width: 230px;
@@ -313,15 +312,11 @@ h4{
 .imgdt{
     width: 200px;
     justify-content: center;
-
-    
 }
 .intro{
     display: flex;
     justify-content: space-around;
-
 }
-
 .museo1 li{
     display: inline-block;
     font-size: 25px;
