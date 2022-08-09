@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 body{
-    background-color: #71E6FF;
+    background: linear-gradient(135deg, #29b8e5 17%,#ffffff 50%,#29b8e5 80%);
 }
 .checkbtn{
     color: white;
@@ -50,9 +50,31 @@ h1{
     margin-top: 5%;
     margin-bottom: 2%;
 }
+.animacion{
+    vertical-align: middle;
+}
+.movimiento{
+    animation-name: mi_animacion;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes mi_animacion{
+    0%{
+        transform:rotate(0)
+    }
+    50%{
+        transform: rotate(1440deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
 .colorancla{
     color: #444DC9;
     text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
 }
 .navintancla{
     color: white;
@@ -152,7 +174,6 @@ form{
     border-style:dotted;
     border-color: red;
     border-width: 2px 5px;
-
 }
 .footer{
     color: red;
@@ -163,7 +184,6 @@ form{
     margin-bottom: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
 /* Fin de index */
 /* Inicio de Carrera Deportiva*/
 .navegadores{
@@ -377,6 +397,7 @@ h4{
         display: block;
         padding: 0 35px;
         font-size: 15px;
+        width: 98%;
     }
     .input{
         display: flex;
