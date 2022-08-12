@@ -12,32 +12,26 @@ body{
 .checkbtn{
     color: white;
     font-size: 30px;
-    margin-left: 20px;
-    line-height: 20px;
     cursor: pointer;
-    display: none;
-}
-#check{
-    display: none; !important
-}
-.navegadores_index{
-    display: flex;
-    justify-content: space-between;
-    font-size: 25px;
-    width: 48%;
-    vertical-align: top;
-    padding-top: 10px;
 }
 .navegacion{
-    display: flex;
+    position: fixed;
+    left: -100%;
+    width: 100%;
+    background-color: transparent;
+    top: 65px;
+    text-align: center;
+    transition: all 0.3s;
     justify-content: left;
     font-family: "cursive";
     font-size: 24px;
     align-items: center;
-    padding-left: 10px;
 }
-.navegacion li{
-    padding-left: 5px;
+#check:checked ~ .navegacion{
+    left: 0%;
+}
+.tituloindex{
+    margin-top: 13%;
 }
 main{
     text-align: center;
@@ -82,13 +76,8 @@ h1{
 h2{
     color: #444DC9;
     font-size: 35px;
-    text-align: center;
     font-family: 'Indie Flower', cursive;
     text-decoration-line: underline;
-}
-.imgindex{
-    width: 100%;
-    height: auto;
 }
 a:hover{
     color: red;
@@ -345,63 +334,32 @@ h4{
 .iframe{
     justify-content: center;
 }
-@media (max-width: 900px){
-    .imgindex{
-        width: 100%;
-        min-width: 100%;
+@media (min-width: 900px){
+    #check{
+        display: none;!important
     }
     .checkbtn{
-        padding-top: 15px;
-        display: block;
-        padding-left: 0;
-    }
-    #check:checked ~ .navegacion{
-        left: 0;
-    }
-    .navegacion{
-        position: fixed;
-        left: -100%;
-        width: 100%;
-        background-color: rgb(151, 53, 53);
-        top: 80px;
-        text-align: center;
-        transition: all 0.5s;
-        display:flex; 
-        justify-content: space-around;
-    }
-    .audio{
-        max-width: 48%;
+        display: none;
     }
     .navegadores_index{
-        padding-left: 2%;
-        max-width: 98%;
+        display: flex;
         justify-content: space-between;
+        font-size: 25px;
+        vertical-align: top;
+    }
+    .navegacion{
+        display: flex;
+        justify-content: left;
+        font-family: "cursive";
+        font-size: 24px;
+        align-items: left;
+        width: 50%;
+        background-color:transparent;
+        top: 0;
+        position: relative;
+        left: 0;
     }
     .tituloindex{
-        margin-top: 13%;
-    }
-    .introindex{
-        margin: 10px;
-        padding: 0 20px;
-    }
-    .grid{
-        grid-template-columns: calc(50% - 1%) calc(50% - 1%);
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .imggrid{
-        width: 100%;
-        
-    }
-    .suscripcion{
-        display: block;
-        padding: 0 35px;
-        font-size: 15px;
-        width: 98%;
-    }
-    .input{
-        display: flex;
-        justify-content: center;
-        vertical-align: middle;
+        margin-top: 7%;
     }
 }
