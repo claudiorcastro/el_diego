@@ -31,7 +31,7 @@ body{
     left: 0%;
 }
 .tituloindex{
-    margin-top: 13%;
+    margin-top: 7%;
 }
 main{
     text-align: center;
@@ -176,10 +176,9 @@ form{
 /* Fin de index */
 /* Inicio de Carrera Deportiva*/
 .navegadores{
-    display: flex;
     justify-content: space-between;
     font-size: 25px;
-    width: 50%;
+    width: 100%;
     padding-left: 10px;
     vertical-align: top;
     padding-top: 10px;
@@ -191,28 +190,9 @@ p{
     font-family: 'Montserrat', sans-serif;
     color: #BE4646;
     font-size: 18px;
-    width: 70%;
-    margin: 0%;
     text-align: left;
-    display: inline-block;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
 }
-.parrafoint{
-    width: 100%;
-    display: inline-block;
-    padding: 0%;
-}
-.parrafointint{
-    width: 90%;
-    display: inline-block;
-    margin: 0%;
-    padding: 0;
-}
-.clubes.parrafointint p{
-    width: 90%;
-}
+
 .stileancla{
     text-align: left;
     padding-left: 60px;
@@ -231,30 +211,16 @@ p{
     font-family: 'Montserrat', sans-serif;
     color: #BE4646;
     font-size: 18px;
-    margin: 0%;
     text-align: left;
-    display: inline-block;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-right: 30px;
 }
 .sevilla{
     width: 73%;
     font-size: 0%;
     display: inline-block;
 }
-.navegadores,.navegadores_index{
-    position: fixed;
-    top: 0;
-    left: 0%;
-    width: 100%;
-    font-size: 0;
-    background-color: transparent;
-}
 .navegadores ul{
     font-size: 25px;
-    display: flex;
-    width: 50%;
+    width: auto;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 10px;
@@ -303,19 +269,9 @@ h4{
     display: inline-block;
 }
 .img{
-    width: 25%;
-    margin: 0%;
-    display: inline-block;
-    vertical-align: top;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
+    max-width: 900px;
 }
-.seleccion{
-    width: 100%;
-    font-size: 0%;
-    display: inline-block;
-}
+
 /* Fin de Carrera Deportiva */
 /* Inicio DT */
 .imgdt{
@@ -341,11 +297,10 @@ h4{
     .checkbtn{
         display: none;
     }
-    .navegadores_index{
-        display: flex;
-        justify-content: space-between;
+    .navegadores{
         font-size: 25px;
         vertical-align: top;
+        width: auto;
     }
     .navegacion{
         display: flex;
@@ -353,7 +308,7 @@ h4{
         font-family: "cursive";
         font-size: 24px;
         align-items: left;
-        width: 50%;
+        width: 40%;
         background-color:transparent;
         top: 0;
         position: relative;
@@ -362,4 +317,5 @@ h4{
     .tituloindex{
         margin-top: 7%;
     }
+    
 }
