@@ -1,3 +1,5 @@
+$color: #444DC9;
+$letra: 'Montserrat', sans-serif;
 *{
     margin: 0;
     padding: 0;
@@ -26,7 +28,7 @@ body{
     font-size: 24px;
     align-items: center;
     .colorancla{
-        color: #444DC9;
+        color: $color;
         text-decoration: none;
         transition-property: color;
         transition-duration: 1s;
@@ -44,7 +46,7 @@ main{
     text-align: center;
 }
 h1{
-    color: #444DC9;
+    color: $color;
     font-family: 'Pacifico', cursive;
     font-size: 35px;
     text-align: center;
@@ -72,7 +74,7 @@ h1{
     }
 }
 .colorancla{
-    color: #444DC9;
+    color: $color;
     text-decoration: none;
     transition-property: color;
     transition-duration: 1s;
@@ -81,7 +83,7 @@ h1{
     color: white;
 }
 h2{
-    color: #444DC9;
+    color: $color;
     font-size: 35px;
     font-family: 'Indie Flower', cursive;
     text-decoration-line: underline;
@@ -90,7 +92,7 @@ a:hover{
     color: red;
 }
 span{
-    color: #444DC9;
+    color: $color;
     font-size: 30px;
     font-family: 'Indie Flower', cursive;
     text-align: center;
@@ -105,7 +107,7 @@ span{
     margin: 10px;
     padding: 0 60px;
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $letra;
 }
 .subtituloindex{
     text-align: center;
@@ -113,10 +115,10 @@ span{
 form{
     padding: 0;
     .suscripcion{
-        color: #444DC9;
+        color: $color;
         margin: 30px;
         font-size: 15px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $letra;
         text-decoration-line: underline;
         padding: 0 3%;
         text-decoration-line: none;
@@ -135,11 +137,11 @@ form{
         padding: 0;
         .redes1{
             font-size: 20px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: $letra;
         }
     }
     .colorancla{
-        color: #444DC9;
+        color: $color;
         text-decoration: none;
         transition-property: color;
         transition-duration: 1s;
@@ -154,7 +156,7 @@ form{
         font-weight: bold;
         font-size: 20px;
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $letra;
     }
 }
 .navegadores{
@@ -170,7 +172,7 @@ form{
     }
 }
 .parrafo{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $letra;
     color: #BE4646;
     font-size: 18px;
     text-align: left;
@@ -217,13 +219,13 @@ form{
     text-align: right;
 }
 h3{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $letra;
     color: lightblue;
     font-size: 22px;
     padding-left: 15%;
 }
 h4{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $letra;
     color: lightblue;
     font-size: 20px;
     padding-left: 15%;
