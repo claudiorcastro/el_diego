@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none; }
+
+body {
+  background: linear-gradient(135deg, #29b8e5 17%, #ffffff 50%, #29b8e5 80%); }
+
+.checkbtn {
+  color: white;
+  font-size: 30px;
+  cursor: pointer; }
+
+.navegacion {
+  position: fixed;
+  left: -100%;
+  width: 100%;
+  background-color: transparent;
+  top: 65px;
+  text-align: center;
+  transition: all 0.3s;
+  justify-content: left;
+  font-family: "cursive";
+  font-size: 24px;
+  align-items: center; }
+  .navegacion .colorancla {
+    color: #444DC9;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s; }
+
+#check:checked ~ .navegacion {
+  left: 0%; }
+
+.tituloindex {
+  margin-top: 7%; }
+
+main {
+  text-align: center; }
+
+h1 {
+  color: #444DC9;
+  font-family: 'Pacifico', cursive;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%; }
+
+.animacion {
+  vertical-align: middle; }
+
+.movimiento {
+  animation-name: mi_animacion;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; }
+
+@keyframes mi_animacion {
+  0% {
+    transform: rotate(0); }
+  50% {
+    transform: rotate(1440deg); }
+  100% {
+    transform: rotate(0); } }
+
+.colorancla {
+  color: #444DC9;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 1s; }
+
+.navintancla {
+  color: white; }
+
+h2 {
+  color: #444DC9;
+  font-size: 35px;
+  font-family: 'Indie Flower', cursive;
+  text-decoration-line: underline; }
+
+a:hover {
+  color: red; }
+
+span {
+  color: #444DC9;
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+  text-align: center; }
+
+.audio {
+  padding-top: 10px; }
+
+.introindex {
+  font-weight: bold;
+  color: #BE4646;
+  font-size: 20px;
+  margin: 10px;
+  padding: 0 60px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif; }
+
+.subtituloindex {
+  text-align: center; }
+
+form {
+  padding: 0; }
+  form .suscripcion {
+    color: #444DC9;
+    margin: 30px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration-line: underline;
+    padding: 0 3%;
+    text-decoration-line: none; }
+
+.red {
+  text-align: center;
+  flex: content; }
+  .red .redes {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    padding: 0; }
+    .red .redes .redes1 {
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif; }
+  .red .colorancla {
+    color: #444DC9;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s; }
+
+.foot {
+  border-style: dotted;
+  border-color: red;
+  border-width: 2px 5px; }
+  .foot .footer {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; }
+
+.navegadores {
+  justify-content: space-between;
+  font-size: 25px;
+  width: 100%;
+  padding-left: 10px;
+  vertical-align: top;
+  padding-top: 10px; }
+  .navegadores ul {
+    font-size: 25px;
+    width: auto; }
+
+.parrafo {
+  font-family: 'Montserrat', sans-serif;
+  color: #BE4646;
+  font-size: 18px;
+  text-align: left; }
+
+.stileancla {
+  text-align: left;
+  padding-left: 60px;
+  font-size: 16px;
+  font-family: "cursive";
+  color: white;
+  font-style: italic;
+  display: inline-block; }
+
+.nosemancha p {
+  font-style: italic;
+  text-align: center;
+  justify-content: center; }
+
+.navinterno ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  padding: 0%; }
+
+.navinterno li ul li {
+  text-align: left;
+  width: 100%; }
+
+.navinterno li {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  padding-right: 5px; }
+
+.navinterno > li:hover ul {
+  display: block; }
+
+.edit {
+  text-align: right; }
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: lightblue;
+  font-size: 22px;
+  padding-left: 15%; }
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: lightblue;
+  font-size: 20px;
+  padding-left: 15%; }
+
+@media (min-width: 900px) {
+  #check {
+    display: none; }
+  .checkbtn {
+    display: none; }
+  .navegacion {
+    display: flex;
+    justify-content: left;
+    font-family: "cursive";
+    font-size: 24px;
+    align-items: left;
+    width: 40%;
+    background-color: transparent;
+    top: 0;
+    position: relative;
+    left: 0; }
+    .navegacion .navegadores {
+      font-size: 25px;
+      vertical-align: top;
+      width: auto; }
+  .tituloindex {
+    margin-top: 7%; } }
