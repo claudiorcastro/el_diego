@@ -218,17 +218,17 @@ form{
 .edit{
     text-align: right;
 }
-h3{
+@mixin letra {
     font-family: $letra;
     color: lightblue;
     font-size: 22px;
     padding-left: 15%;
 }
+h3{
+    @include letra
+}
 h4{
-    font-family: $letra;
-    color: lightblue;
-    font-size: 20px;
-    padding-left: 15%;
+    @include letra
 }
 @media (min-width: 900px){
     #check{
