@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Carrera Deportiva</title>
+    <title>Director Tecnico</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
@@ -20,26 +23,26 @@
     <!--Comienzo del Header-->
     <header>
         <!--Comienzo del navegador-->
-        <nav class="navegadores d-flex justify-content-between ps-3">
+        <nav class="navbar d-flex justify-content-between navegadores w-100 px-3">
             <input type="checkbox" id="check" class="d-none">
             <label for="check" class="checkbtn ps-4">
                 <i class="fa-solid fa-bars"></i>
             </label>
-            <ul class="navegacion d-flex  ps-3" >
+            <ul class="navegacion d-flex d-flex justify-content-evenly" >
                 <li class="nav-item ps-1">
-                    <a class="colorancla" href="../index.html">Home </a>
+                    <a class="colorancla" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item ps-1">
-                    <a class="colorancla" href="carrera_deportiva.html">Carrera deportiva </a>
+                    <a class="colorancla" href="carrera_deportiva.html">Carrera deportiva</a>
                 </li>
                 <li class="nav-item ps-1">
-                    <a class="colorancla" href="dt.html">DT </a>
+                    <a class="colorancla" href="dt.html">DT</a>
                 </li>
                 <li class="nav-item ps-1">
-                    <a class="colorancla" href="videos.html">Videos </a>
+                    <a class="colorancla" href="videos.html">Videos</a>
                 </li>
                 <li class="nav-item ps-1">
-                    <a class="colorancla" href="arte.html">Arte </a>
+                    <a class="colorancla" href="arte.html">Arte</a>
                 </li>
             </ul>
             <div class="d-flex mx-auto animacion movimiento">
@@ -96,45 +99,61 @@
                         <p class="parrafo py-3 px-4 col-12 col-lg-12">Su segundo partido por esta competición se jugó el 1 de abril frente a la selección boliviana, en La Paz. El resultado fue 6 a 1 para los locales, en una de las mayores goleadas que recibió la selección albiceleste. Más adelante, solicitó a la AFA el cambio de sede para el partido frente a Brasil hacia la ciudad de Rosario, justificando la necesidad de la presión del público sobre el rival. Finalmente, el partido finalizó 3-1 a favor de los brasileños, siendo esta la segunda derrota como local de Argentina en toda la historia de eliminatorias. Durante la semana posterior, sumada una nueva caída del equipo frente a Paraguay, Maradona afirmó que seguiría en el cargo. Se generó cierta polémica pública, alentada por el periodismo deportivo, acerca de sus capacidades para el cargo.</p>
                         <p class="parrafo py-3 px-4 col-12 col-lg-6">El 14 de octubre de 2009, la Selección dirigida por Maradona logró el pasaje a la Copa del Mundo, al obtener una victoria contra Uruguay en el Estadio Centenario y asegurarse así el cuarto puesto en las Eliminatorias Sudamericanas. Tras la clasificación, Maradona sorprendió con fuertes declaraciones, rayanas con el insulto, contra el periodismo que lo había cuestionado. Debido a las mismas, el 15 de noviembre la Comisión Disciplinaria de la FIFA le prohibió ejercer cualquier actividad relacionada con el fútbol por dos meses y, además, le impuso una multa de 25 000 francos suizos.</p>
                         <img class="img-fluid px-2 col-12 col-lg-6" src="../imagenes/diegodt5.jpg" width="200" title="la seleccion" alt="la seleccion" class="imgdt"/>
-                    
                         <p class="parrafo py-3 px-4 col-12 col-lg-12">En la fase final de la Copa Mundial de Fútbol de Sudáfrica, la selección Argentina compartía el Grupo B con Nigeria, Corea del Sur y Grecia. El primer partido argentino se disputó el 12 de junio frente a Nigeria, en Johannesburgo. Argentina se impuso por la mínima diferencia con un gol de Gabriel Heinze a los seis minutos del partido. Su segundo partido fue contra Corea del Sur el 17 en esa misma ciudad, en el que goleó 4:1 gracias a los tres tantos convertidos por Gonzalo Higuaín. El último partido del grupo, con un equipo conformado en su mayoría por suplentes, la albiceleste venció a Grecia por 2:0, con goles de Martín Demichelis y Martín Palermo.</p>
                         <img class="img-fluid px-2 col-12 col-lg-6" src="../imagenes/diegodt6.jpg" title="la seleccion" alt="la seleccion"/>
                         <p class="parrafo py-3 px-4 col-12 col-lg-6">De esta forma Argentina clasificó a los octavos de final y debió enfrentar a México. El triunfo por 3:1, con dos goles de Carlos Tévez y uno de Higuaín, le otorgó el pase a los cuartos de final donde jugó frente Alemania siendo goleada por 4:0 y quedando eliminada de la Copa del Mundo. Ese fue el último partido que dirigió a la selección argentina, ya que el 27 de julio la AFA decidió no renovarle el contrato porque Maradona no aceptó las modificaciones en la conformación del cuerpo técnico que le habían propuesto. Cabe destacar que Maradona convocó a un total de 108 jugadores a la selección albiceleste.</p>
                     </div>
                 <h2 id="alwasl" class="py-2">Al Wasl (2011-2012)</h2>
-                    <div><p class="parrafo py-3 px-4">Tras numerosos rumores de ofrecimientos para ser DT de la selección de fútbol de Ucrania o el Aston Villa, Maradona finalmente viajó a los Emiratos Árabes Unidos, más precisamente a la ciudad de Dubái, para hacerse cargo de la conducción técnica del Al Wasl.</p></div>
+                    <div>
+                        <p class="parrafo py-3 px-4">Tras numerosos rumores de ofrecimientos para ser DT de la selección de fútbol de Ucrania o el Aston Villa, Maradona finalmente viajó a los Emiratos Árabes Unidos, más precisamente a la ciudad de Dubái, para hacerse cargo de la conducción técnica del Al Wasl.</p>
+                    </div>
                     <img class="img-fluid px-2"  src="../imagenes/diegodt7.jpg"  alt="al wasl" title="al wasl" class="imgdt"/>
-                    <div><p class="parrafo py-3 px-4">El contrato que liga a Diego Maradona durante dos años como entrenador "está valuado en unos 34,5 millones de dólares", según informó el club de Emiratos Árabes Unidos. Para homenajearlo, suprimieron la casaca número 10 del club; además, trajo como refuerzos a Mariano Donda (Godoy Cruz), a Edson Puch (Universidad de Chile), Juan Manuel Olivera (Peñarol) y Richard Porta (Nacional).</p></div>
-                    <div><p class="parrafo py-3 px-4">En su debut (28 de agosto), se enfrentó en un partido amistoso ante Kalba con victoria de 3:1. Pero perdería agónicamente en su debut oficial contra Al Jazira por 4:3, como visitante en la primera fecha de la Primera División de los Emiratos Árabes Unidos.</p></div>
+                    <div>
+                        <p class="parrafo py-3 px-4">El contrato que liga a Diego Maradona durante dos años como entrenador "está valuado en unos 34,5 millones de dólares", según informó el club de Emiratos Árabes Unidos. Para homenajearlo, suprimieron la casaca número 10 del club; además, trajo como refuerzos a Mariano Donda (Godoy Cruz), a Edson Puch (Universidad de Chile), Juan Manuel Olivera (Peñarol) y Richard Porta (Nacional).</p>
+                    </div>
+                    <div>
+                        <p class="parrafo py-3 px-4">En su debut (28 de agosto), se enfrentó en un partido amistoso ante Kalba con victoria de 3:1. Pero perdería agónicamente en su debut oficial contra Al Jazira por 4:3, como visitante en la primera fecha de la Primera División de los Emiratos Árabes Unidos.</p>
+                    </div>
                     <img class="img-fluid px-2" src="../imagenes/diegodt8.jpg"  alt="al wasl" title="al wasl" class="imgdt"/>
-                    <div><p class="parrafo py-3 px-4">En diciembre de ese año, la Federación de Fútbol de los Emiratos Árabes Unidos le aplicó una sanción de tres partidos de suspensión, más otra de 2700 dólares; dicha situación se debe a la trifulca con el entrenador del Al Ain, Cosmin Olaroiu. El Al Wasl fue multado con 20 000 dirhams. Además, fue candidato a ser el DT de las selección de fútbol de Emiratos Árabes Unidos para clasificar y participar en Brasil 2014, según reconoció el presidente interino de la federación de ese país, Yousuf al Serkal.</p></div>
-                    <div><p class="parrafo py-3 px-4">En marzo de 2012, Maradona aseguró su intención de renovar como entrenador de Al Wasl e incluso ampliar sus funciones para ser un mánager plenipotenciario, como en Inglaterra. Sin embargo, a mediados de año fue despedido por los malos resultados. En diciembre de 2013, corrieron rumores de que podría dirigir a la selección de fútbol de Irak. pero éstos nunca se materializaron.</p></div>
+                    <div>
+                        <p class="parrafo py-3 px-4">En diciembre de ese año, la Federación de Fútbol de los Emiratos Árabes Unidos le aplicó una sanción de tres partidos de suspensión, más otra de 2700 dólares; dicha situación se debe a la trifulca con el entrenador del Al Ain, Cosmin Olaroiu. El Al Wasl fue multado con 20 000 dirhams. Además, fue candidato a ser el DT de las selección de fútbol de Emiratos Árabes Unidos para clasificar y participar en Brasil 2014, según reconoció el presidente interino de la federación de ese país, Yousuf al Serkal.</p>
+                    </div>
+                    <div>
+                        <p class="parrafo py-3 px-4">En marzo de 2012, Maradona aseguró su intención de renovar como entrenador de Al Wasl e incluso ampliar sus funciones para ser un mánager plenipotenciario, como en Inglaterra. Sin embargo, a mediados de año fue despedido por los malos resultados. En diciembre de 2013, corrieron rumores de que podría dirigir a la selección de fútbol de Irak. pero éstos nunca se materializaron.</p>
+                    </div>
                     
                 <h2 id="alfujairah" class="py-2">Al Fujairah</h2>
-                    <img class="img-fluid px-2 w-100" src="../imagenes/diegodt10.jpg" width="200" alt="al fujairah" title="al fujairah" class="imgdt"/>
-                    <div><p class="parrafo py-3 px-4">El 7 de mayo de 2017, Maradona fue confirmado por una temporada como entrenador del club Al Fujairah de la Segunda División de los Emiratos Árabes. Tras no obtener el ascenso directo a la Primera División, dejó de ser técnico del equipo, que finalmente conseguiría el ascenso en un repechaje sin él en el cargo.</p></div>
-                    <div><p class="intro"></p></div>
-                    <img class="img-fluid px-2 w-100" src="../imagenes/diegodt9.jpg" width="200" alt="al fujairah" title="al fujairah" class="imgdt"/>
-                    
+                <div class="row">
+                    <img class="img-fluid px-2 col-12 col-lg-6" src="../imagenes/diegodt9.jpg" width="200" alt="al fujairah" title="al fujairah" />
+                    <div class="px-2 col-12 col-lg-6 ">
+                        <img class="img-fluid px-2 col-12" src="../imagenes/diegodt10.jpg" width="200" alt="al fujairah" title="al fujairah" "/>
+                        <p class="parrafo py-3 px-4 col-12">El 7 de mayo de 2017, Maradona fue confirmado por una temporada como entrenador del club Al Fujairah de la Segunda División de los Emiratos Árabes. Tras no obtener el ascenso directo a la Primera División, dejó de ser técnico del equipo, que finalmente conseguiría el ascenso en un repechaje sin él en el cargo.</p>
+                    </div>
+                </div>
                 <h2 id="dinamobrest" class="py-2">Dinamo Brest</h2>
                 <img class="img-fluid px-2 pt-2 col-12 col-lg-5" src="../imagenes/diegodt12.jpg" width="200" alt="dinamo brest" title="dinamo brest"/>
                 <img class="img-fluid px-2 pb-2 col-12 col-lg-5" src="../imagenes/diegodt11.jpg" width="200" alt="dinamo brest" title="dinamo brest"/>
-                <p class="parrafo py-3 px-4">En el mes de julio del 2017 fue presentado como el nuevo presidente del Dinamo Brest de Bielorrusia.</p>
+                <p class="parrafo py-3 px-4 text-center">En el mes de julio del 2017 fue presentado como el nuevo presidente del Dinamo Brest de Bielorrusia.</p>
+                
                 <h2 id="doradosdesinaloa" class="py-2">Dorados de Sinaloa (2018-2019)</h2>
-                    <img class="img-fluid px-2 pt-2 w-100" src="../imagenes/diegodt13.jpg" alt="dorados de sinaloa" title="dorados de sinaloa" class="imgdt"/>    
-                    <div><p class="parrafo py-3 px-4">En septiembre de 2018, fue contratado para ser Director Técnico del club Dorados de Sinaloa, en la segunda categoría del fútbol mexicano. Hizo una buena campaña (18 triunfos, 10 empates y 7 derrotas). A pesar de que existía un acuerdo para que Maradona continuara por dos años al frente del conjunto de Culiacán, al que condujo en dos torneos del Ascenso MX y lo depositó en las finales (que perdió frente a Atlético San Luis), el 13 de junio de 2019 se comunicó que Diego dejaba la conducción técnica para enfocarse en sus lesiones de hombro y rodillas, estas últimas afectadas por una importante artrosis que llegó a impedirle caminar. "Juntos sorprendimos al mundo. Demostramos que el fútbol es pasión y corazón. Con el Diego de Sinaloa, #LaHicimosDeDiez. ¡Gracias por todo, Jefe! ¡Recupérate y nos vemos pronto!", publicó el "Gran Pez" en su cuenta de Twitter.</p></div>
-                    <img class="img-fluid px-2 pt-2 w-100" src="../imagenes/diegodt14.jpg" alt="dorados de sinaloa" title="dorados de sinaloa" class="imgdt"/>
+                    <div class="row">
+                        <img class="img-fluid px-2 pt-2 col-12 col-lg-6" src="../imagenes/diegodt14.jpg" alt="dorados de sinaloa" title="dorados de sinaloa" class="imgdt"/>
+                        <img class="img-fluid px-2 pt-2 col-12 col-lg-6" src="../imagenes/diegodt13.jpg" alt="dorados de sinaloa" title="dorados de sinaloa" class="imgdt"/>    
+                        <div><p class="parrafo py-3 px-4 col-12">En septiembre de 2018, fue contratado para ser Director Técnico del club Dorados de Sinaloa, en la segunda categoría del fútbol mexicano. Hizo una buena campaña (18 triunfos, 10 empates y 7 derrotas). A pesar de que existía un acuerdo para que Maradona continuara por dos años al frente del conjunto de Culiacán, al que condujo en dos torneos del Ascenso MX y lo depositó en las finales (que perdió frente a Atlético San Luis), el 13 de junio de 2019 se comunicó que Diego dejaba la conducción técnica para enfocarse en sus lesiones de hombro y rodillas, estas últimas afectadas por una importante artrosis que llegó a impedirle caminar. "Juntos sorprendimos al mundo. Demostramos que el fútbol es pasión y corazón. Con el Diego de Sinaloa, #LaHicimosDeDiez. ¡Gracias por todo, Jefe! ¡Recupérate y nos vemos pronto!", publicó el "Gran Pez" en su cuenta de Twitter.</p></div>
+                    </div>
                 <h2 id="gimnasia" class="py-2">Gimnasia y Esgrima La Plata (2019-2020)</h2>
-                    <img class="img-fluid px-2 pt-2 w-100" src="../imagenes/diegodt15.jpg" alt="gimnasia" title="gimnasia" class="imgdt"/>
-                    <div><p class="parrafo py-3 px-4">Desde su regreso a la Argentina, Maradona había recibido varios sondeos para dirigir en el fútbol argentino. Defensa y Justicia (luego de la salida de Sebastián Beccacece), Gimnasia La Plata, Belgrano de Córdoba y Nueva Chicago, entre otros, consultaron a su entorno sobre su disponibilidad. Y aunque Maradona había prometido enfocarse en su salud, finalmente el 5 de septiembre de 2019 fue confirmado como nuevo entrenador de Gimnasia La Plata, para intentar recuperarlo de su último puesto en la Superliga Argentina y posible descenso a la Segunda División.</p></div>
-                    <img class="img-fluid px-2 pt-2 w-100" src="../imagenes/diegodt16.jpg_large" alt="gimnasia" title="gimnasia" class="imgdt"/>
-                    <div><p class="parrafo py-3 px-4">Consecuentemente con el fanatismo que siempre despertó Maradona en Argentina, el club sumó, del jueves al domingo, tres mil nuevos socios, aumentando así un 10% su masa societaria. Para atender esa demanda, en Gimnasia tuvieron que triplicar la estructura de atención: normalmente preparada para recibir a 200 nuevos socios diarios, en cuatro días debió gestionar alrededor de 600 trámites cada jornada (con picos de 800). De hecho, a los 3000 que acaban de ser bienvenidos habría que sumarles al menos 600 más que -aún sin datos oficiales- el club calcula que se asociaron ese lunes, y otros tantos por día hasta el debut del nuevo técnico contra Racing Club, el campeón.294​El 30 de octubre de 2020 y coincidiendo con su cumpleaños número 60, Maradona hizo su última aparición en una cancha de fútbol dirigiendo a su equipo, que terminaría derrotando a Patronato por 3-0.</p></div>
-                    <img class="img-fluid px-2 pt-2 w-100" src="../imagenes/diegodt17.jpg" alt="gimnasia" title="gimnasia" class="imgdt"/>
+                <div class="row">
+                    <img class="img-fluid px-2 pt-2 col-12 col-lg-6" src="../imagenes/diegodt17.jpg" alt="gimnasia" title="gimnasia" class="imgdt"/>
+                    <img class="img-fluid px-2 pt-2 col-12 col-lg-6" src="../imagenes/diegodt15.jpg" alt="gimnasia" title="gimnasia" class="imgdt"/>
+                    <div><p class="parrafo py-3 px-4 col-12">Desde su regreso a la Argentina, Maradona había recibido varios sondeos para dirigir en el fútbol argentino. Defensa y Justicia (luego de la salida de Sebastián Beccacece), Gimnasia La Plata, Belgrano de Córdoba y Nueva Chicago, entre otros, consultaron a su entorno sobre su disponibilidad. Y aunque Maradona había prometido enfocarse en su salud, finalmente el 5 de septiembre de 2019 fue confirmado como nuevo entrenador de Gimnasia La Plata, para intentar recuperarlo de su último puesto en la Superliga Argentina y posible descenso a la Segunda División.</p></div>
+                    <img class="img-fluid px-2 pt-2  col-12 col-lg-6" src="../imagenes/diegodt16.jpg_large" alt="gimnasia" title="gimnasia" class="imgdt"/>
+                    <p class="parrafo py-3 col-12 col-lg-6">Consecuentemente con el fanatismo que siempre despertó Maradona en Argentina, el club sumó, del jueves al domingo, tres mil nuevos socios, aumentando así un 10% su masa societaria. Para atender esa demanda, en Gimnasia tuvieron que triplicar la estructura de atención: normalmente preparada para recibir a 200 nuevos socios diarios, en cuatro días debió gestionar alrededor de 600 trámites cada jornada (con picos de 800). De hecho, a los 3000 que acaban de ser bienvenidos habría que sumarles al menos 600 más que -aún sin datos oficiales- el club calcula que se asociaron ese lunes, y otros tantos por día hasta el debut del nuevo técnico contra Racing Club, el campeón.294​El 30 de octubre de 2020 y coincidiendo con su cumpleaños número 60, Maradona hizo su última aparición en una cancha de fútbol dirigiendo a su equipo, que terminaría derrotando a Patronato por 3-0.</p>
+                </div>    
             </div>
     </main>
     <!--Fin del Main-->
     <!--inficio de footer-->
-    <footer>
+    <footer class="pt-5">
         <div class="foot pb-2">
             <p class="footer text-center mb-0"><strong>Copyright 2022 - El Diego, pagina hecha por Claudio Castro.</strong></p>
             <p class="footer text-center mb-0"><strong> Made In La Paternal, Tierra de D10S.</strong></p>

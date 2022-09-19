@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Carrera Deportiva</title>
+    <title>Videos</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
@@ -20,26 +23,26 @@
     <!--Comienzo del Header-->
     <header>
         <!--Comienzo del Navegador-->
-        <nav class="navegadores d-flex justify-content-between ps-3">
+        <nav class="navbar d-flex justify-content-between navegadores w-100 px-3">
             <input type="checkbox" id="check" class="d-none">
             <label for="check" class="checkbtn ps-4">
                 <i class="fa-solid fa-bars"></i>
             </label>
-            <ul class="navegacion d-flex  ps-3" >
+            <ul class="navegacion d-flex ps-3 d-flex justify-content-evenly" >
                 <li class="nav-item ps-1">
-                    <a class="colorancla" href="../index.html">Home </a>
+                    <a class="colorancla" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item ps-1">
-                    <a class="colorancla" href="carrera_deportiva.html">Carrera deportiva </a>
+                    <a class="colorancla" href="carrera_deportiva.html">Carrera deportiva</a>
                 </li>
                 <li class="nav-item ps-1">
-                    <a class="colorancla" href="dt.html">DT </a>
+                    <a class="colorancla" href="dt.html">DT</a>
                 </li>
                 <li class="nav-item ps-1">
-                    <a class="colorancla" href="videos.html">Videos </a>
+                    <a class="colorancla" href="videos.html">Videos</a>
                 </li>
                 <li class="nav-item ps-1">
-                    <a class="colorancla" href="arte.html">Arte </a>
+                    <a class="colorancla" href="arte.html">Arte</a>
                 </li>
             </ul>
             <div class="d-flex mx-auto animacion movimiento">
@@ -58,13 +61,41 @@
         <!--Fin del Titulo-->
         <h2>La Noche del 10</h2>
         <p class="parrafo">La Noche del 10 fue un programa de televisión argentino conducido por el exfutbolista Diego Maradona. El programa se transmitió durante el segundo semestre de 2005 por la pantalla de Canal Trece, constando con un total de 13 episodios.</p>
-            <h3>Mejores entrevistas del programa.</h3>
-            <ul>    
-                <li><a class="stileancla" href="https://www.youtube.com/watch?v=-JNtJuXmMzs" target="_blank">Diego entrevista a si mismo.</a></li>    
-                <li><a class="stileancla" href="https://www.youtube.com/watch?v=x6SRak2X8t4" target="_blank">Diego entrevista a Pelé</a></li>
-                <li><a class="stileancla" href="https://www.youtube.com/watch?v=Qtk7VV2UcX4" target="_blank">Diego entrevista a Mike Tyson</a></li>
-                <li><a class="stileancla" href="https://www.youtube.com/watch?v=SghkogYBGkc" target="_blank">Diego entrevista a Charly Garcia (Parte 1)</a></li>
-                <li><a class="stileancla" href="https://www.youtube.com/watch?v=ttmRHrLS90I" target="_blank">Diego entrevista a Charly Garcia (Parte 2)</a></li>
+            <h3 class="p-0">Mejores entrevistas del programa.</h3>
+            <ul class="p-0">
+                <div class="row d-flex justify-content-evenly">    
+                    <li class="pb-2 col-12 col-lg-6"><a class="stileancla p-0 w-auto" href="https://www.youtube.com/watch?v=-JNtJuXmMzs" target="_blank">Diego entrevista a si mismo.</a></li>    
+                    <li class="pb-2 col-12 col-lg-6"><a class="stileancla p-0 w-auto" href="https://www.youtube.com/watch?v=x6SRak2X8t4" target="_blank">Diego entrevista a Pelé</a></li>
+                    <li><a class="stileancla col-12 p-0 w-auto" href="https://www.youtube.com/watch?v=Qtk7VV2UcX4" target="_blank">Diego entrevista a Mike Tyson</a></li>
+                    <li class="pb-2 col-12 col-lg-6"><a class="stileancla p-0 w-auto" href="https://www.youtube.com/watch?v=SghkogYBGkc" target="_blank">Diego entrevista a Charly Garcia (Parte 1)</a></li>
+                    <li class="pb-2 col-12 col-lg-6"><a class="stileancla p-0 w-auto" href="https://www.youtube.com/watch?v=ttmRHrLS90I" target="_blank">Diego entrevista a Charly Garcia (Parte 2)</a></li>
+                </div>
+            </ul>
+            <h3 class="p-0">Documentales del 10.</h3>
+            <ul class="p-0">
+                <div class="row d-flex justify-content-evenly">
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=yMQyQRw1Bbc" target="_blank">Maradona Documental HBO</a></li>
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=ZHip0lAh1UQ" target="_blank">La LEYENDA de MARADONA - Dios en la tierra -</a></li>
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=a0izMZXL9VI" target="_blank">Maradona</a></li>
+                    <li class="pb-2 col-12"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=nzBXRpS_YTg&t=1077s" target="_blank">De Zurda - Diego Armando Maradona</a></li>
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=aZ43nUQMVFQ" target="_blank">After DIEGO</a></li>
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=E-7qjUOZRSg" target="_blank">EL DIEGO. El pueblo no olvida</a></li>
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=eaoz78p3hWY" target="_blank">LA VERDAD SOBRE LA MUERTE DE MARADONA</a></li>
+                </div>
+            </ul>
+            <h3 class="p-0">Entrevistas en programas.</h3>
+            <ul>
+                <div class="row">
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=zc6IAG8AK3Y" target="_blank">Dos Solos - Diego Maradona</a></li>
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=sB5zofSGJ1k" target="_blank">Líbero VS Diego Armando Maradona </a></li>
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=Y3j9OC8amyA" target="_blank">Diego Maradona en Mar de Fondo</a></li>
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=eGAtHhkSLmc" target="_blank">Badía y Compañía entrevista a Diego Armando Maradona</a></li>
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=a6mjG2g_l68" target="_blank">Diego Maradona en Peor es nada</a></li>
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=7cY64KLQXR8" target="_blank">Diego Maradona en TVR</a></li>
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=FlFtavLG6Jg" target="_blank">Diego Maradona en Argentinos por su nombre</a></li>
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=lduKhFsnkIo" target="_blank">Lanata entrevista a Diego Maradona</a></li>
+                    <li class="pb-2 col-12 col-lg-4"><a class="stileancla p-0 text-center" href="https://www.youtube.com/watch?v=XsIr_SWqGBc" target="_blank">Diego Maradona en Hablemos de Futbol</a></li>
+                </div>
             </ul>
     </main>
     <!--Fin del Main-->
