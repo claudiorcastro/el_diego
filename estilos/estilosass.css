@@ -25,8 +25,8 @@ body {
   justify-content: left;
   font-family: "cursive";
   font-size: 24px; }
-  .navegacion .colorancla {
-    color: #444DC9;
+  .navegacion .colorancla:hover {
+    color: red;
     text-decoration: none;
     transition-property: color;
     transition-duration: 1s; }
@@ -43,10 +43,11 @@ main {
 h1 {
   color: #444DC9;
   font-family: 'Aref Ruqaa Ink', serif;
-  font-size: 35px;
+  font-size: 38px;
   text-align: center;
+  text-shadow: 0 0 3px black;
   margin-top: 5%;
-  margin-bottom: 2%; }
+  margin-bottom: 2%;}
 
 .animacion {
   vertical-align: middle; }
@@ -69,25 +70,26 @@ h1 {
   color: #444DC9;
   text-decoration: none;
   transition-property: color;
-  transition-duration: 1s; }
+  transition-duration: 1s;}
 
 .navintancla {
   color: white; }
 
 h2 {
   color: #444DC9;
-  font-size: 35px;
+  font-size: 25px;
   font-family: 'Aref Ruqaa Ink', serif;
-  text-decoration-line: underline; }
+  text-decoration-line: underline;
+  text-shadow: 0 0 2px black; }
 
 a:hover {
   color: red; }
 
 span {
   color: #444DC9;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Aref Ruqaa Ink', serif;
-  text-align: center; }
+  text-align: center;}
 
 .audio {
   padding-top: 10px; }
@@ -123,12 +125,12 @@ form {
     font-style: italic;
     text-align: center;
     display: flex;
-    justify-content: space-around;
     margin-bottom: 2%;
     padding: 0; }
     .red .redes .redes1 {
       font-size: 20px;
-      font-family: "Montserrat", sans-serif; }
+      font-family: "Montserrat", sans-serif; 
+      text-decoration: 0 0 10px rgb(247, 21, 21); }}
   .red .colorancla {
     color: #444DC9;
     text-decoration: none;
@@ -195,18 +197,24 @@ form {
 .navinterno > li:hover ul {
   display: block; }
 
-  h3 {
+h3 {
   font-family: "Montserrat", sans-serif;
-  color: blue;
-  font-size: 22px;
+  color: #612a61;
+  font-size: 20px;
   padding-left: 15%; }
 
 h4 {
   font-family: "Montserrat", sans-serif;
-  color: blue;
-  font-size: 22px;
+  color: #612a61;
+  font-size: 18px;
   padding-left: 15%; }
 
+img{
+  box-shadow: 0 0 20px black;
+}
+.ani{
+  box-shadow: none;
+}
 @media (min-width: 900px) {
   #check {
     display: none; }
